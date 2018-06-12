@@ -1,0 +1,357 @@
+.App {
+  text-align: center;
+}
+
+body{
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: 'Earth Memory';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Earth Memory'), url('Earth-Memory.woff') format('woff');
+  }
+
+.App-title{
+  padding-bottom: 5em;
+  font-family: 'Earth Memory';
+  letter-spacing: .5em;
+  animation: fadeIn 3s linear;
+
+  }
+  
+h1{
+  color: blue;
+}
+body{
+  background: url("https://i.ytimg.com/vi/DyBDy8urs1Q/maxresdefault.jpg");
+  background-size: cover;
+  animation: fadeIn 3s linear;
+  }
+
+/* Zeus */
+
+  .zeus{
+     height: 30em;
+    width: 16%;
+    transform: translateY(-12.5%);
+    padding-left: 50%;
+    position: relative;
+         }
+
+  /* Zeus's title */
+
+  .title{
+    transform: translateX(-26%);
+    color: lightblue;
+    
+      }
+  
+  .biodiv{
+    position: relative;
+    border-width: 40%;
+    padding-left: 10%;
+  width: 40%;
+  opacity: 0.3;
+  transform: translateX(-10%);
+  transform: translateY(-90%);
+     transition: 0.3s; 
+  }
+/* Description of the gods */
+
+  .bio1{
+    position: relative;
+    font-size: 2em;
+     color: white;
+     opacity: 0.2;
+    animation: float 5s infinite;
+    border: 20%;
+    padding: .05em;
+    width: 140%;
+    height: 13em;     
+      }
+
+       .bio1:hover{
+       color: lightblue !important;
+       }
+       
+       .section1:hover .biodiv{
+          opacity: 1;
+            }
+
+  /* Backgrounds and animations */
+.section1{
+  position: relative;
+  height: 30em;
+   background-image: url('https://i.imgur.com/xEvh9yq.gif');
+  opacity: 0.6;
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size:cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
+
+   }
+
+  
+ /* Poseidon */
+
+.poseidon{
+  height: 30em;
+  width: 16%;
+  transform: translateY(-12.5%);
+  padding-left: 50%;
+}
+
+/* Posiedon title */
+.title2{
+  padding-right: 50%;
+    font-size: 2em;
+  color: lightcyan;
+  transform: translateY(90%)
+}
+
+
+.bio2{
+  position:  relative;
+  font-size: 2em;
+   color: lightskyblue;
+   top: 30%;
+  animation: float 5s infinite;
+  border: 20%;
+  right: -5%;
+  padding: 0.001em;
+  width:60%;
+  height: 3em;  
+}
+
+.biodiv2{
+  bottom: 31em;
+position: relative;
+transform: translateY(-5%);
+padding-left: -10%;
+right: -2%;
+ width: 100%;
+opacity: 0.6;
+height: 100%;
+transition: 0.3s;
+}
+
+.section2:hover .biodiv2{
+    opacity:1;
+}
+
+
+
+/* Poseidon's background */
+
+.section2{
+    height: 30rem;
+  position: relative;
+  transform: translateY(40%);
+  background-image: url('https://media.giphy.com/media/AODv02Hi3DnBS/source.gif');
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size:cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
+}
+
+/* Hades */
+.hades{
+  height: 30rem;
+  width: 16%;
+  transform: translateY(-12.5%);
+  padding-left: 50%;
+}
+
+.bio3{
+  position: relative;
+  animation: float 5s infinite;
+  top: 40%;
+  transition: 0.3s;
+}
+
+.biodiv3{
+  transform: translateY(-120%);
+position: relative;
+  padding: 0%;
+  right: -5%;
+  width: 60%;
+opacity: 0.3;
+height: 100%;
+border-width: 30%;
+transition: 0.4s;
+}
+
+.section3:hover .biodiv3{
+  opacity: 0.8;
+}
+/* Hades title */
+.title3{
+  padding-right: 50%;
+    font-size: 2em;
+  color: white;
+  transform: translateY(90%)
+}
+
+/* Hades's background */
+.section3{
+  height: 30em;
+  transform: translateY(80%);
+background-image: url('https://78.media.tumblr.com/34f79a2cc915944d811b2a1b212e73c1/tumblr_o1o9anRy0V1sspb38o1_500.gif');
+background-size: cover;
+-ms-background-size: cover;
+  -o-background-size:cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
+}
+
+
+/* Aphrodite */
+.aphrodite{
+  height: 30rem;
+  width: 16%;
+  transform: translateY(-12.5%);
+  padding-left: 50%;
+  opacity: 0.60;
+}
+
+.bio4{
+  color: red;
+  animation: float 5s infinite;
+}
+
+.biodiv4{
+  transform: translateY(-200%);
+  position: relative;
+    padding-left: 15%;
+    width: 40%;
+  opacity: 0.5;
+  height: 40%;
+  transition: 0.2s;
+  }
+
+  .section4:hover .biodiv4{
+    opacity:1;
+  }
+
+  .title4{
+      padding-right: 50%;
+      font-size: 2em;
+    color: lightcoral;
+    transform: translateY(90%)
+  }
+  
+.section4{
+  height: 30em;
+  transform: translateY(120%);
+  background-image: url('https://thumbs.gfycat.com/JubilantSlipperyAmericanpainthorse-size_restricted.gif');
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size:cover;
+  -moz-background-size: cover;
+  -webkit-background-size:cover;
+}
+
+/* Artemis */
+
+.artemis{
+  height: 30rem;
+  width: 16%;
+  transform: translateY(-12.5%);
+  padding-left: 50%;
+  opacity: 0.60;
+}
+
+.bio5{
+  
+  transform: translateY(20%);
+  color: red;
+  animation: float 5s infinite;
+
+}
+
+.biodiv5{
+  bottom: -10%;
+  transform: translateY(-300%);
+  position: relative;
+    padding-left: 1%;
+    width: 44%;
+    right: -12%;
+  opacity: 0.5;
+  height: 30%;
+  border-width: 30%;
+  transition: 0.3s;
+  }
+
+  .section5:hover .biodiv5{
+    opacity: 0.8;
+  }
+
+  .title5{
+      padding-right: 50%;
+      font-size: 2em;
+    color: lightsalmon;
+    transform: translateY(80%)
+  }
+  
+
+.section5{
+  height: 30em;
+   transform: translateY(155%);
+  background-image: url('https://thumbs.gfycat.com/CompetentHorribleAoudad-max-1mb.gif');
+  background-size: contain;
+  -ms-background-size: contain;
+  -o-background-size:contain;
+  -moz-background-size: contain;
+  -webkit-background-size:contain;
+}
+
+
+@-webkit-keyframes flash {
+	from { opacity: 0; } 
+  92% { opacity: 0; }
+	93% { opacity: 0.6; }
+  94% { opacity: 0.2; }
+  96% { opacity: 0.9; } 
+	to { opacity: 0; }
+}
+
+@keyframes flash {
+	from { opacity: 0; } 
+    92% { opacity: 0; }
+	93% { opacity: 0.6; }
+    94% { opacity: 0.2; }
+    96% { opacity: 1; } 
+	to { opacity: 0; }
+}
+
+@keyframes bob{
+  50%{
+    transform: Scale(1)
+  }
+
+  80%{
+    transform: Scale(1.5)
+  }
+
+  100%{
+    transform:Scale(0)
+  }
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0%)
+  }
+  50%{
+    transform: translateY(-1em);
+  }
+
+  100%{
+    transform: translateY(0%);
+
+  }
+
+}

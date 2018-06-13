@@ -53,9 +53,10 @@ body{
   
   .biodiv{
     position: relative;
+    top: -10%;
     border-width: 40%;
-    padding-left: 10%;
-  width: 40%;
+    padding-left: 0%;
+  width: 45%;
   opacity: 0.3;
   transform: translateX(-10%);
   transform: translateY(-90%);
@@ -130,12 +131,12 @@ body{
 }
 
 .biodiv2{
-  bottom: 31em;
+  bottom: 35em;
 position: relative;
 transform: translateY(-5%);
 padding-left: -10%;
 right: -2%;
- width: 100%;
+ width: 95%;
 opacity: 0.6;
 height: 100%;
 transition: 0.3s;
@@ -180,6 +181,7 @@ transition: 0.3s;
   transform: translateY(-120%);
 position: relative;
   padding: 0%;
+  top: -10%;
   right: -5%;
   width: 60%;
 opacity: 0.3;
@@ -229,8 +231,8 @@ background-size: cover;
 .biodiv4{
   transform: translateY(-200%);
   position: relative;
-    padding-left: 15%;
-    width: 40%;
+    padding-left: 0%;
+    width: 65%;
   opacity: 0.5;
   height: 40%;
   transition: 0.2s;
@@ -280,10 +282,9 @@ background-size: cover;
   bottom: -10%;
   transform: translateY(-300%);
   position: relative;
-    padding-left: 1%;
-    width: 44%;
-    right: -12%;
-  opacity: 0.5;
+    padding-left: 0%;
+    width: 65%;
+   opacity: 0.5;
   height: 30%;
   border-width: 30%;
   transition: 0.3s;

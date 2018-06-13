@@ -4,6 +4,7 @@
 
 body{
   overflow-x: hidden;
+  zoom: 75%;
 }
 @font-face {
   font-family: 'Earth Memory';

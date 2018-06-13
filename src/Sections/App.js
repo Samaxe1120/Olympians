@@ -1,8 +1,6 @@
  import React, { Component } from 'react';
 import {Zeus, Poseidon, Hades, Aphrodite, Artemis} from './olympians'
-import {gods} from './gods.js'
 import './App.css';
-import thunder from './ThunderSound effect.mp3'
 import 'animate.css'
 
 

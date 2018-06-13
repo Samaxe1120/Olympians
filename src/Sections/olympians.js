@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import gods from './gods.js'
+
 import './App.css'
 
 

@@ -7,8 +7,84 @@ html{
 }
 body{
     overflow-x: hidden;
-  
+  }
+/* tablets */
+  @media screen and (min-width: 700px) and (max-width: 770px){
+.allbiodiv{
+width: 40%;
 }
+
+.pics{
+  width: 16%;
+  transform: translateY(-12.5%);
+}
+  }
+
+/* mobile */
+@media screen and (min-width: 100px) and (max-width: 350px) {
+.allbiodiv{
+   height: 100%;
+   width: 60%;
+  overflow-x: hidden;
+}
+
+.hades{
+  width: 16%;
+  transform: translateY(-20%);
+}
+
+.poseidon{
+  width: 16%;
+  transform: translateY(-20%);
+}
+.pics{
+   width: 16%;
+ transform: translateY(-28%);
+}
+  }
+
+  /* mobile extra */
+  @media screen and (min-width: 376px) and (max-width: 425px) {
+    .allbiodiv{
+      width: 40%;
+     overflow-x: hidden;
+   }
+
+   .pics{
+    width: 16%;
+  transform: translateY(-20%);
+ }
+  }
+
+  /* small bug fix */
+  @media screen and (min-width: 375px) and (max-width: 375px){
+    .allbiodiv{
+      width: 50%;
+     overflow-x: hidden;
+   }
+.aphrodite, .artemis{
+  width: 16%;
+  transform: translateY(-28%)
+}
+   .pics:not(.aphrodite):not(.artemis){
+    width: 16%;
+  transform: translateY(-20%);
+ }
+   }
+
+  /* Desktop */
+  @media screen and (max-width: 2600px) and (min-width: 1000px){
+
+    .allbiodiv{
+      
+      width: 45%;
+          }
+    .pics{
+      width: 16%;
+transform: translateY(-12.5%)
+    }
+  }
+  
 @font-face {
   font-family: 'Earth Memory';
   font-style: normal;
@@ -40,8 +116,7 @@ body{
     width: 16%;
     transform: translateY(-12.5%);
     padding-left: 50%;
-    position: relative;
-         }
+          }
 
   /* Zeus's title */
 
@@ -52,14 +127,12 @@ body{
       }
   
   .biodiv{
+ padding-left: 2%;
     position: relative;
     top: -10%;
-    border-width: 40%;
-    padding-left: 0%;
-  width: 45%;
-  opacity: 0.3;
+    opacity: 0.3;
   transform: translateX(-10%);
-  transform: translateY(-90%);
+  transform: translateY(-100%);
      transition: 0.3s; 
   }
 /* Description of the gods */
@@ -70,10 +143,8 @@ body{
      color: white;
      opacity: 0.2;
     animation: float 5s infinite;
-    border: 20%;
-    padding: .05em;
     width: 140%;
-    height: 13em;     
+    height: 10em;     
       }
 
        .bio1:hover{
@@ -86,7 +157,7 @@ body{
 
   /* Backgrounds and animations */
 .section1{
-  position: relative;
+    position: relative;
   height: 30em;
    background-image: url('https://i.imgur.com/xEvh9yq.gif');
   opacity: 0.6;
@@ -95,18 +166,15 @@ body{
   -o-background-size:cover;
   -moz-background-size: cover;
   -webkit-background-size:cover;
-
    }
 
   
  /* Poseidon */
 
 .poseidon{
-  height: 30em;
-  width: 16%;
-  transform: translateY(-12.5%);
+  height: 30rem;
   padding-left: 50%;
-}
+ }
 
 /* Posiedon title */
 .title2{
@@ -117,6 +185,7 @@ body{
 }
 
 
+
 .bio2{
   position:  relative;
   font-size: 2em;
@@ -125,7 +194,6 @@ body{
   animation: float 5s infinite;
   border: 20%;
   right: -5%;
-  padding: 0.001em;
   width:60%;
   height: 3em;  
 }
@@ -150,10 +218,11 @@ transition: 0.3s;
 
 /* Poseidon's background */
 
+
 .section2{
-    height: 30rem;
   position: relative;
-  transform: translateY(40%);
+    height: 30rem;
+   transform: translateY(40%);
   background-image: url('https://media.giphy.com/media/AODv02Hi3DnBS/source.gif');
   background-size: cover;
   -ms-background-size: cover;
@@ -165,8 +234,6 @@ transition: 0.3s;
 /* Hades */
 .hades{
   height: 30rem;
-  width: 16%;
-  transform: translateY(-12.5%);
   padding-left: 50%;
 }
 
@@ -183,7 +250,6 @@ position: relative;
   padding: 0%;
   top: -10%;
   right: -5%;
-  width: 60%;
 opacity: 0.3;
 height: 100%;
 border-width: 30%;
@@ -198,7 +264,7 @@ transition: 0.4s;
   padding-right: 50%;
     font-size: 2em;
   color: white;
-  transform: translateY(90%)
+  transform: translateY(60%)
 }
 
 /* Hades's background */
@@ -217,8 +283,6 @@ background-size: cover;
 /* Aphrodite */
 .aphrodite{
   height: 30rem;
-  width: 16%;
-  transform: translateY(-12.5%);
   padding-left: 50%;
   opacity: 0.60;
 }
@@ -264,8 +328,6 @@ background-size: cover;
 
 .artemis{
   height: 30rem;
-  width: 16%;
-  transform: translateY(-12.5%);
   padding-left: 50%;
   opacity: 0.60;
 }
